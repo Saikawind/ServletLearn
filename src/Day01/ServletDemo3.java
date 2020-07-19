@@ -1,3 +1,5 @@
+package Day01;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,9 +12,7 @@ import java.io.IOException;
  * @Author: Wang Shiyu
  * @Date: 2020/7/19/18:41
  */
-//@WebServlet("/Demo3")
-//@WebServlet("/Chapter01/Demo3")
-@WebServlet("/Chapter01/*")
+@WebServlet("/Demo3")
 public class ServletDemo3 extends HttpServlet {
 
     @Override
