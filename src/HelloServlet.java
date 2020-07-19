@@ -33,6 +33,7 @@ public class HelloServlet implements Servlet {
         return null;
     }
 
+    // 销毁方法
     @Override
     public void destroy() {
 
