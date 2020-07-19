@@ -10,18 +10,20 @@ import java.io.IOException;
  * @Author: Wang Shiyu
  * @Date: 2020/7/19/18:41
  */
-@WebServlet("/Demo3")
+//@WebServlet("/Demo3")
+//@WebServlet("/Chapter01/Demo3")
+@WebServlet("/Chapter01/*")
 public class ServletDemo3 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doGet(req, resp);
+        super.doGet(req, resp);
         System.out.println("doGet");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doPost(req, resp);
+        //super.doPost(req, resp);
         System.out.println("doPost");
     }
 }
