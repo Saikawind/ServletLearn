@@ -22,7 +22,7 @@ public class HelloServlet implements Servlet {
         return null;
     }
 
-    // 提供服务的方法
+    // 提供服务的方法，每一次Servlet被访问时，执行，执行多次
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
 
