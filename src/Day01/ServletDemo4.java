@@ -15,10 +15,9 @@ import java.io.IOException;
 @WebServlet({"/d4", "/demo4", "/Demo4"})
 public class ServletDemo4 extends HttpServlet {
 
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        super.doGet(req, resp);
+        //super.doGet(req, resp);
         System.out.println("Demo4");
     }
 }
