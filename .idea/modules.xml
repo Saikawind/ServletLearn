@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Chapter01.iml" filepath="$PROJECT_DIR$/Chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Book.iml" filepath="$PROJECT_DIR$/Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ServletLearn/ServletLearn.iml" filepath="$PROJECT_DIR$/../ServletLearn/ServletLearn.iml" />
     </modules>
   </component>
 </project>
